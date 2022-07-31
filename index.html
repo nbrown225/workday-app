@@ -28,66 +28,95 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-      <form id="form-group">
-        <div class="task-criteria">
-          <input type="text" name="task-notes" placeholder="Task Notes">
+ <!-- timeblocks -->
+ <div class="container9">
+    <div class="time-box">
+        <h2>8am</h2>
+        <div class="hour8am">
+            <textarea type="name" id="8" cols="55" rows="3">
+                enter meeting
+            </textarea>
         </div>
-        <div class="form-group">
-          <select name="task-time" id="task-dropdown">
-            <option value="" disabled selected>Choose a catagory</option>
-            <option value="9am">8AM</option>
-            <option value="10am">8AM</option>
-            <option value="11am">8AM</option>
-            <option value="12pm">12PM</option>
-            <option value="1pm">1PM</option>
-            <option value="2pm">2PM</option>
-            <option value="3pm">3PM</option>
-            <option value="4pm">4PM</option>
-            <option value="5pm">5PM</option>
-            <option value="6pm">6PM</option>
-          </select>
-          <select name="task-color" id="dropdown">
-            <option value="blue" id="blue">BLUE</option>
-            <option value="purple" id="purple">PURPLE</option>
-            <option value="green" id="green">GREEN</option>
-            <option value="red" id="red">RED</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <button class="btn" id="save-task" type="button">ADD</button>
-        </div>
-      </form>
-      <div id="hour9" class="row time-block">
-        <div class="col-1 hour">9AM</div>
-          <ul class="task-lit">
-            <li class="task-to-do">
-              tasks go here
-            </li>
-          </ul>
-        <!-- <textarea class="col-10 description"></textarea> -->
-        <button class="btn saveBtn col-1"><i class="fa fa-save fa-lg"></i></button>
-      </div>
-
-      <!-- <div id="hour10" class="row time-block">
-        <div class="col-1 hour">10AM</div>
-        <textarea class="col-10 description"></textarea>
-        <button class="btn saveBtn col-1"><i class="fa fa-save fa-lg"></i></button>
-      </div>
-
-      <div id="hour11" class="row time-block">
-        <div class="col-1 hour">11AM</div>
-        <textarea class="col-10 description"></textarea>
-        <button class="btn saveBtn col-1"><i class="fa fa-save fa-lg"></i></button>
-      </div> -->
+        <div class="colorchoice"></div>
     </div>
-
+    <div class="time-box">
+        <h2>9am</h2>
+        <div class="hour9am">
+            <textarea type="name" id="9" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+    <div class="time-box">
+        <h2>10am</h2>
+        <div class="hour10am">
+            <textarea type="name" id="10" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+    <div class="time-box">
+        <h2>11am</h2>
+        <div class="hour11am">
+            <textarea type="name" id="11" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+    <div class="time-box">
+        <h2>12pm</h2>
+        <div class="hour12pm">
+            <textarea type="name" id="12" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+    <div class="time-box">
+        <h2>1pm</h2>
+        <div class="hour1pm">
+            <textarea type="name" id="1" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>   
+    <div class="time-box">
+        <h2>2pm</h2>
+        <div class="hour2pm">
+            <textarea type="name" id="2" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+ </div>
+    <div class="time-box">
+        <h2>3am</h2>
+        <div class="hour3pm">
+            <textarea type="name" id="3" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+    <div class="time-box">
+        <h2>4pm</h2>
+        <div class="hour4pm">
+            <textarea type="name" id="4" cols="55" rows="3">
+                enter meeting
+            </textarea>
+        </div>
+        <div class="colorchoice"></div>
+    </div>
+ </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script data-main="scripts/app" src="./assets/js/script.js"></script>
-    <script src="./lib/moment/moment.min.js"></script>
 
 
   </body>
