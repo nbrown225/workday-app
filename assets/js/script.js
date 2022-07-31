@@ -15,34 +15,36 @@ taskRed.setAttribute('id', 'red;');
 // ---set type so page won't refresh when clicking on the button
 taskRed.setAttribute('type', 'button');
 // ---add the function for the box to change to desired color
-taskRed.setAttribute('onclick', 'turnRed()');
+taskRed.setAttribute('onclick', 'turnItRed()');
 
 
 var taskPurple = document.createElement('button');
 taskPurple.setAttribute('id', 'purple;');
 taskPurple.setAttribute('type', 'button');
-taskPurple.setAttribute('onclick', 'turnPurple()');
+taskPurple.setAttribute('onclick', 'turnItPurple()');
 var taskGreen = document.createElement('button');
 taskGreen.setAttribute('id', 'green;');
 taskGreen.setAttribute('type', 'button');
-taskGreen.setAttribute('onclick', 'turnGreen()');
+taskGreen.setAttribute('onclick', 'turnItGreen()');
 var taskBlue = document.createElement('button');
 taskBlue.setAttribute('id', 'blue;');
 taskBlue.setAttribute('type', 'button');
-taskBlue.setAttribute('onclick', 'turnBlue()');
+taskBlue.setAttribute('onclick', 'turnItBlue()');
 
 // functions to turn background color for tasks
 function showChoices () {
     //window.alert('yessss')
-    colorBox.appendChild(taskRed)
-    colorBox.appendChild(taskBlue)
+    // show buttons on page
+    colorBox.appendChild(taskRed);
+    colorBox.appendChild(taskPurple);
+    colorBox.appendChild(taskBlue);
+    colorBox.appendChild(taskGreen);
     document.querySelector('.colorchoice').appendChild(colorBox)
 }
 function turnItRed () {
     var redIt = document.querySelector('.time-box');
     redIt.setAttribute('id', 'red');
 }
-taskRed.addEventListener('click', turnItRed)
 function turnItPurple() {
     var purpleIt = document.querySelector('.time-box');
     purpleIt.setAttribute('id', 'purple');
@@ -55,3 +57,8 @@ function turnItGreen() {
     var greenIt = document.querySelector('.time-box');
     greenIt.setAttribute('id', 'green');
 }
+// event listeners for color choices
+taskRed.addEventListener('click', turnItRed)
+taskPurple.addEventListener('click', turnItPurple)
+taskBlue.addEventListener('click', turnItBlue)
+taskBlue.addEventListener('click', turnItGreen)
