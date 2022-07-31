@@ -66,20 +66,25 @@ body {
     margin: auto 4px;
   }
   .btn-purple {
-    background-color: purple;
-  }
-  .btn-purple:hover{
     background-color: blueviolet;
-  }
-  .btn-blue {
-    background-color: aqua;
   }
   .btn-red {
     background-color: red;
   }
   .btn-green {
-    background-color: green;
+    background-color: rgb(14, 151, 106);  
   }
+
+  .btn-purple:hover{
+    background-color: rgb(152, 101, 199);
+  }
+  .btn-red:hover {
+    background-color: rgb(189, 85, 85);
+  }
+  .btn-green:hover {
+    background-color: rgb(110, 202, 171);  
+  }
+
 
 
 
@@ -113,14 +118,10 @@ body {
   #red{
     background-color: red;
   }
-  #blue{
-    background-color: rgb(255, 0, 89);
-  }
   #green{
-    background-color: green;
-  }
+background-color: rgb(14, 151, 106);  }
   #purple{
-    background-color: purple;
+    background-color: blueviolet;
   }
   
   

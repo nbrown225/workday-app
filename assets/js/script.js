@@ -45,28 +45,26 @@ function showChoices () {
     // show buttons on page
     colorBox.appendChild(taskRed);
     colorBox.appendChild(taskPurple);
-    colorBox.appendChild(taskBlue);
     colorBox.appendChild(taskGreen);
     document.querySelector('.colorchoice').appendChild(colorBox)
 }
 function turnItRed () {
-    var redIt = document.querySelector('.time-box');
+    var redIt = document.querySelector('.event-color');
     redIt.setAttribute('id', 'red');
 }
 function turnItPurple() {
-    var purpleIt = document.querySelector('.time-box');
+    var purpleIt = document.querySelector('.event-color');
     purpleIt.setAttribute('id', 'purple');
 }
-function turnItBlue() {
-    var blueIt = document.querySelector('.time-box');
-    blueIt.setAttribute('id', 'blue');
-}
 function turnItGreen() {
-    var greenIt = document.querySelector('.time-box');
+    var greenIt = document.querySelector('.event-color');
     greenIt.setAttribute('id', 'green');
 }
 // event listeners for color choices
 taskRed.addEventListener('click', turnItRed)
 taskPurple.addEventListener('click', turnItPurple)
-taskBlue.addEventListener('click', turnItBlue)
 taskBlue.addEventListener('click', turnItGreen)
+
+// remove default text on click in textarea
+
+// get color to set for specific time slot
