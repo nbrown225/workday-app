@@ -28,8 +28,33 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+<!-- ----------------test layout--------------------------- -->
+<table class="container">
+    <tr class="title">
+        <th>time</th>
+        <th>event</th>
+        <th>category</th>
+    </tr>
+    <tr class="time-card">
+        <td class="hour8" id="time-slot">8am</td>
+        <td class="event8"><textarea id="8" onclick="showChoices()">enter event here</textarea></td>
+        <td class="colorchoice"></td>
+    </tr>
+    <tr class="time-card">
+        <td class="hour9">10am</td>
+        <td class="event9"><textarea id="9" onclick="showChoices()">enter event here</textarea></td>
+        <td class="colorchoice"></td>
+    </tr>
+    <tr class="time-card">
+        <td class="hour10">10am</td>
+        <td class="event8"><textarea id="10" onclick="showChoices()">enter event here</textarea></td>
+        <td class="colorchoice"></td>
+    </tr>
+</table>
+
  <!-- timeblocks -->
- <div class="container9">
+ <!-- <div class="container" >
      <h2>8am</h2>
     <div class="time-box">
         <div class="hour8am">
@@ -112,7 +137,7 @@
         </div>
         <div class="colorchoice"></div>
     </div>
- </div>
+ </div> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

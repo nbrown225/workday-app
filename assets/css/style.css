@@ -1,7 +1,13 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: aliceblue;
   }
   
   
@@ -18,27 +24,92 @@ body {
   }
   
   .container {
-    margin: 0;
+    background-color: #c5c1d7cc; 
+    width: 100%;
+  }
+  .title {
+    height: 2rem;
+    border: rgb(13, 13, 13) solid 4px;
     text-align: center;
-    justify-content: left;
-    border-radius: 15px;
-    display: table;
-  }
-  h2 {
-    float: left;
-    padding-right: 10px;
-    margin-right: 1px;
+    color: #374151;
 
   }
+  .time-card {
+    border: rgb(13, 13, 13) solid 4px;
+    height: 3rem;
+    text-align: center;
+  }
+  #time-slot {
+    border: rgb(13, 13, 13) solid 4px;
+    margin-right: none;
+    width: 8rem;
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #ec4381;
+  }
+  textarea {
+    margin-left: none;
+    width: 25rem;
+    background-color: #c5c1d7cc; 
+    border: none;
+    color: #374151;
+  }
+  .colorchoice {
+    width: 15rem;
+    align-items: center;
+  }
+  button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin: auto 4px;
+  }
+  .btn-purple {
+    background-color: purple;
+  }
+  .btn-purple:hover{
+    background-color: blueviolet;
+  }
+  .btn-blue {
+    background-color: aqua;
+  }
+  .btn-red {
+    background-color: red;
+  }
+  .btn-green {
+    background-color: green;
+  }
+
+
+
+  /* .colorchoice,
+  textarea {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .colorchoice,
   textarea{
-
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 14pt;
   }
-  h2,
-  textarea, 
-  button{
-    display: table-column;
-
-  }
+ .time-box {
+  padding: 1rem;
+ }
+ .time-box,
+ h2{
+  margin-bottom: 1rem;
+ }
+ .time-box textarea{
+  display: flex;
+  justify-content: space-between;
+ }
+   */
   #red{
     background-color: red;
   }
