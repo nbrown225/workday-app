@@ -25,7 +25,7 @@ body {
     display: table;
   }
   h2 {
-float: left;
+    float: left;
     padding-right: 10px;
     margin-right: 1px;
 
@@ -34,7 +34,22 @@ float: left;
 
   }
   h2,
-  textarea{
+  textarea, 
+  button{
     display: table-column;
+
   }
+  #red{
+    background-color: red;
+  }
+  #blue{
+    background-color: blue;
+  }
+  #green{
+    background-color: green;
+  }
+  #purple{
+    background-color: purple;
+  }
+  
   
