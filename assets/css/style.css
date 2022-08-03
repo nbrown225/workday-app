@@ -38,6 +38,7 @@ body {
     border: rgb(13, 13, 13) solid 4px;
     height: 3rem;
     text-align: center;
+  
   }
   #time-slot {
     border: rgb(13, 13, 13) solid 4px;
@@ -85,7 +86,14 @@ body {
     background-color: rgb(110, 202, 171);  
   }
 
-
+  #present{
+    background-color: #ec4381;
+    
+  }
+  .past{
+    background-color: darkgray;
+  }
+  
 
 
   /* .colorchoice,
